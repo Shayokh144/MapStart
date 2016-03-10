@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/abc_search_url_text_normal"
+    tools:context="com.example.asiff.nishchinto.HelpActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/HelptextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/abc_search_url_text_selected"
+                android:text=" You can use -'Save Current Location' button to save location where you want your mobile phone
+to be in vibrate mode. After leaving the place, phone will automatically turn into normal mode. \n\n
+Pressing 'Get Location Via Map' you can see previously marked areas or you can mark new by just touching the location
+on google map. \n\n
+You can use 'View Saved Location' button to see previously saved location and if you want to delete any location
+you have to just click on the location name and select delete option.\n\n
+After saving your location if you press 'Start' in menu bar then the app will start to run and you will
+get notification in time. \n\n
+You can get location from application sever by pressing 'Get Location From Web'.\n\n
+If you want to stop the service just click on 'Stop' in menu bar."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    tools:context=".MainActivity"
+    android:background="@drawable/nnb"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="285dp"
+
+            android:background="#0b3050"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/SaveLocation"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#000000"
+            android:textStyle="bold" android:typeface="normal"
+
+
+            android:drawableLeft="@drawable/gl"
+            android:layout_marginLeft="2dp"
+
+
+
+
+
+            android:text="Save Current Location"
+            android:textSize="19dp"
+            style="?android:attr/borderlessButtonStyle"
+
+
+
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:enabled="true"
+            android:longClickable="true"
+
+
+
+
+
+
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#0b3050"/>
+
+
+
+
+        <Button
+            android:id="@+id/GetMap"
+
+
+
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#000000"
+            android:textStyle="bold" android:typeface="normal"
+
+            style="?android:attr/borderlessButtonStyle"
+
+
+            android:text="Get Location Via Map"
+            android:textSize="19dp"
+
+            android:width="300dp"
+
+
+            android:drawableLeft="@drawable/map"
+            android:layout_marginLeft="2dp"
+
+
+            />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#0b3050"/>
+
+
+
+
+        <Button
+            android:id="@+id/ViewSavedLocation"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:width="300dp"
+            android:textSize="19dp"
+            android:textStyle="bold" android:typeface="normal"
+
+            style="?android:attr/borderlessButtonStyle"
+            android:text="View Saved Location "
+
+
+
+            android:drawableLeft="@drawable/vv"
+            android:layout_marginLeft="2dp"
+
+
+            android:textColor="@android:color/white" />
+
+
+
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#0b3050"/>
+
+
+
+
+        <Button
+            android:id="@+id/GetWebLocation"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:width="300dp"
+            android:textSize="19dp"
+            android:textStyle="bold" android:typeface="normal"
+
+
+            style="?android:attr/borderlessButtonStyle"
+            android:text="Get Location From Web"
+
+
+
+            android:drawableLeft="@drawable/dwn"
+            android:layout_marginLeft="2dp"
+
+
+            android:textColor="@android:color/white" />
+
+
+
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#0b3050"/>
+
+
+
+
+        <Button
+            android:id="@+id/GetDistance"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:width="300dp"
+            android:textSize="19dp"
+            android:textStyle="bold" android:typeface="normal"
+            android:layout_marginBottom="12dp"
+
+            style="?android:attr/borderlessButtonStyle"
+            android:text="Speed and Distance"
+
+
+
+            android:drawableLeft="@drawable/spd"
+            android:layout_marginLeft="2dp"
+
+
+            android:textColor="@android:color/white" />
+
+
+
+
+
+
+        <!--  <View
+              android:layout_width="fill_parent"
+              android:layout_height="2dp"
+              android:background="#0b3050"/>
+
+
+              -->
+
+
+
+
+          <!--    <Button
+                 android:id="@+id/Helpbutton1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:width="200dp"
+                 android:background="#9400D3" android:textColor="#FFFAF0"
+                 android:textStyle="bold" android:typeface="normal"
+                 android:layout_marginBottom="2dip"
+
+
+                 android:text="Help"
+
+
+                 />        -->
+
+
+
+
+        <!--  <Button
+              android:id="@+id/StartAppbutton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="2dip"
+              android:background="@color/abc_search_url_text_normal"
+              android:text="Start Apps Service"
+
+              android:width="200dp" />
+
+
+
+
+
+
+          <Button
+              android:id="@+id/StopAppbutton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="2dip"
+              android:width="200dp"
+              android:background="#FF0000" android:textColor="#FFFAF0"
+              android:text="Stop Apps Service" />
+
+
+
+               -->
+
+
+
+      </LinearLayout>
+
+  </RelativeLayout>

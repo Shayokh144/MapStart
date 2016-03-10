@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nishchinto</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_android_gpstracking">AndroidGPSTrackingActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_get_location_via_map">Map</string>
+    <string name="title_activity_save_location_via_map">SaveLocationViaMap</string>
+    <string name="title_activity_parse_json">ParseJson</string>
+    <string name="title_activity_get_distance">GetDistance</string>
+</resources>

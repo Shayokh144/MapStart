@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.asiff.nishchinto.AndroidGPSTrackingActivity">
+
+
+
+    <item android:id="@+id/help" android:title="Help"
+        android:onClick="HelpGo"
+        android:icon="@drawable/hmark"
+        android:orderInCategory="1" app:showAsAction="always" />
+
+    <item
+        android:id="@+id/home"
+        android:title="Stop"
+        android:onClick="HomeGo"
+        android:icon="@drawable/homeicon"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+
+</menu>
